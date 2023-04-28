@@ -1,0 +1,54 @@
+﻿.button {
+    background-color: #04D186;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    .button:hover {
+        background-color: #04AA6D;
+    }
+
+.miTitulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.miTexto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.miDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-con-input {
+    display: flex;
+    align-items: center;
+}
+
+.miDivButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .miDivButton > * {
+        margin: 10px;
+    }
+
+#miGrid {
+    text-align: center;
+    padding: 10px;
+}

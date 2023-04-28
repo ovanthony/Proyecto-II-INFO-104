@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuPrincipal.master.cs" Inherits="ProyectoIIProgra.MenuPrincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/MenúMaster.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="Inicio.aspx" id="home">Inicio</a>
+            <a href="School.aspx" id="school">Escuela</a>
+            <a href="Class.aspx" id="class">Clase</a>
+            <a href="Course.aspx" id="course">Curso</a>
+            <a href="Student.aspx" id="student">Estudiante</a>
+            <a href="Teacher.aspx" id="teacher">Profesor</a>
+            <a href="StudentCourse.aspx" id="studentcourse">Curso Estudiante</a>
+            <a href="TeacherCourse.aspx" id="teachercourse">Curso Profesor</a>
+            <a href="Grade.aspx" id="grade">Notas</a>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
